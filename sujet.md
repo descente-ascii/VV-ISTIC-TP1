@@ -17,5 +17,5 @@
 
 3.  One of the experiments Netflix made is to fail the bookmark service (locate last timestamp of a stream) of a specific experiment group and compare it to a control group. There performance measure is based on SPS ((Stream) Start Per Second). They make the hypothesis that the SPS will be (more or less) the same for the two groups. In this experiment the variable is the bookmark service with which they selectively failed all requests from the experimental group.
 
-4.  
-5.  
+4. There are some advantages we can extract from this paper : Web assembly is fast because is a low level. Also it is safe thanks to its linear memory disjoint code, execution stack and data structure. So the program can't corrupt their environment. Web assembly is also portable beacause it's a "cross-browser solution". Havig formal specifications doesn't mean the implementation doesn't need to be tested.
+5. 
